@@ -1,8 +1,12 @@
-package guru.springframework.services;
+package guru.springframework.repositories;
+
+import guru.springframework.repositories.GreetingRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  * Created by jt on 5/24/17.
  */
+@Repository
 public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
